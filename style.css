@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+.header{
+    background-image: url("12.jpg");
+    height:430px;
+    
+}
+.icon-bar{
+    background:darkorange;
+}
+.nav-heading{
+    color:white;
+}
+.navbar-nav li a{
+    color:white;
+}
+.superclass{
+    font-weight:bold;
+    color:white;
+    text-align:center;
+}
+.header-para{
+    font-weight:bold;
+    color:white;
+    text-align:center;
+}
+#singlebutton{
+  border-radius: 20px;
+  background-color: purple;
+  font-weight: bold;
+}
+.needmore{
+     background-color: darkorange;
+     height:auto;
+     margin:-20px;
+     height:300px;
+}
+.needheading{
+    padding-top:40px;
+    text-align: center;
+    color:white;
+}
+.need-para{
+    text-align: center;
+    color:white;
+}
+#needbutton{
+  border-radius: 20px;
+  background-color:purple;
+  font-weight: bold;
+}
+.logoclass{
+    margin-top:30px;
+    height:40px;
+    width:40px;
+}
+.serviceheading{
+    margin-top:50px;
+    text-align:center;
+}
+.galleryheading{
+  text-align:center;
+  margin-top:50px;
+  margin-bottom:40px;
+}
+.galleryimage{
+  height:250px;
+  width:380px;
+}
+.footerclass h1{
+  text-align:center;
+
+}
+.footerclass p{
+  text-align:center;
+}
+.footerclass form{
+  text-align:center;
+}
+.footerclass form input{
+  margin:10px;
+  width:380px;
+  height:38px;
+ 
+}
+.footerclass form textarea{
+  width:380px;
+  height:100px;
+}
+.footerclass form button{
+  width:380px;
+  border-radius: 20px;
+  background-color: purple;
+  color:white;
+  height:38px;
+  font-weight: bold;;
+}
+.phoneclass{
+  width:40px;
+  height:40px;
+  margin-left:600px;
+  margin-top:40px;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .header{
+    width: 60%;
+    padding:0px;
+  }
+  .needmore{
+    width: 60%;
+    padding: 0;
+  }
+  .services{
+    width: 60%;
+    padding: 0;
+  }
+
+  .gallery{
+    width: 60%;
+    padding: 0;
+  }
+  .footerclass{
+    width: 60%;
+    padding: 0;
+  }
+  
+}
+@media(max-width:998px){
+  html{
+    font-size:53%;
+  }
+}
+@media(max-width:768px)
+{
+  html{
+    font-size:45%;
+  }
+}
